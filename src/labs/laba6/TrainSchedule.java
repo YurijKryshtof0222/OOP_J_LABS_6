@@ -58,20 +58,22 @@ public class TrainSchedule {
         String from, to;
         int hour, minutes;
 
-        System.out.println("\nВкажіть дані маршруту:");
-        from = enterStation("Місто, звідки поїзд прибуває: ");
-        to = enterStation("Місто, куди поїзд має прибути у кінцевому рахунку: ");
-        System.out.print("Година часу, коли поїзд має прибути у станцію Львів: ");
-        hour = Integer.parseInt(input.readLine());
-        System.out.print("Хвилина часу, коли поїзд має прибути у станцію Львів: ");
-        minutes = Integer.parseInt(input.readLine());
+        try {
+            System.out.println("\nВкажіть дані маршруту:");
+            from = enterStation("Місто, звідки поїзд прибуває: ");
+            to = enterStation("Місто, куди поїзд має прибути у кінцевому рахунку: ");
+            System.out.print("Година часу, коли поїзд має прибути у станцію Львів: ");
+            hour = Integer.parseInt(input.readLine());
+            System.out.print("Хвилина часу, коли поїзд має прибути у станцію Львів: ");
+            minutes = Integer.parseInt(input.readLine());
 
-        if ((hour < 0 || hour > 23) || (minutes < 0 || minutes >= 60)) {
+            if ((hour < 0 || hour > 23) || (minutes < 0 || minutes >= 60))
+                throw new NumberFormatException();
+            routeMap.put(from + " " + to, String.format("%d:%d", hour, minutes));
+        } catch (NumberFormatException e) {
             System.out.println("Неправильно заданий час!");
-            return;
         }
 
-        routeMap.put(from + " " + to, String.format("%d:%d", hour, minutes));
     }
 
     public static void getDateOfArriving() throws IOException {
