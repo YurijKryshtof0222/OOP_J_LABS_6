@@ -69,7 +69,7 @@ public class TrainSchedule {
 
             if ((hour < 0 || hour > 23) || (minutes < 0 || minutes >= 60))
                 throw new NumberFormatException();
-            routeMap.put(from + " " + to, String.format("%d:%d", hour, minutes));
+            routeMap.put(from + " " + to, String.format("%02d:%02d", hour, minutes));
         } catch (NumberFormatException e) {
             System.out.println("Неправильно заданий час!");
         }
