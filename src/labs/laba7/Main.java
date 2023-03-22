@@ -3,6 +3,7 @@ package labs.laba7;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.DateTimeException;
 import java.util.*;
 
 public class Main {
@@ -62,11 +63,9 @@ public class Main {
             dst = input("Місто, куди поїзд має прибути у кінцевому рахунку: ");
             hour = Integer.parseInt(input("Година часу, коли поїзд має прибути у станцію Львів: "));
             minutes = Integer.parseInt(input("Хвилина часу, коли поїзд має прибути у станцію Львів: "));
-
-//            if ((hour < 0 || hour > 23) || (minutes < 0 || minutes >= 60))
-//                throw new NumberFormatException();
             routeList.add(new TrainRoute(src, dst, hour, minutes));
-        } catch (NumberFormatException e) {
+            System.out.println("Інформація про вказаний маршрут успішна додана у розклад!");
+        } catch (NumberFormatException | DateTimeException e) {
             System.out.println("Неправильно заданий час!");
         }
 
@@ -81,8 +80,7 @@ public class Main {
 
         System.out.println("Розклад прибуття поїздів вказаного маршруту");
         orderedRouteMap.forEach((key, value) -> {
-            TrainRoute tr = value;
-            if (src.equals(tr.getSrcStation()) && dst.equals(tr.getDstStation()))
+            if (src.equals(value.getSrcStation()) && dst.equals(value.getDstStation()))
                 System.out.printf("%d.) %s %n", key+1, value);
         });
     }
@@ -95,6 +93,7 @@ public class Main {
                 throw new IndexOutOfBoundsException();
             }
             routeList.remove(index - 1);
+            System.out.println("Інформація про вказаний успішно вилучена!");
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Помилка: ви ввели число яке виходить за діапазану списку!");
         } catch (NumberFormatException e) {
@@ -110,4 +109,5 @@ public class Main {
         orderedRouteMap.forEach((key, value) ->
                 System.out.printf("%d.) %s %n", key + 1, value));
     }
+
 }
