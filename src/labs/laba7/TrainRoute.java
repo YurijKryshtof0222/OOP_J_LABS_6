@@ -1,6 +1,7 @@
 package labs.laba7;
 
 import java.time.LocalTime;
+import java.util.Objects;
 
 public class TrainRoute {
     private String srcStation;
@@ -48,4 +49,16 @@ public class TrainRoute {
         this.time = time;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TrainRoute that = (TrainRoute) o;
+        return Objects.equals(srcStation, that.srcStation) && Objects.equals(dstStation, that.dstStation) && Objects.equals(time, that.time);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(srcStation, dstStation, time);
+    }
 }

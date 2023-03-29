@@ -77,7 +77,6 @@ public class Main {
         String dst = input("Місто, куди поїзд має прибути у кінцевому рахунку: ");
 
         Map<Integer, TrainRoute> orderedRouteMap = routeList.getMap();
-
         System.out.println("Розклад прибуття поїздів вказаного маршруту");
         orderedRouteMap.forEach((key, value) -> {
             if (src.equals(value.getSrcStation()) && dst.equals(value.getDstStation()))

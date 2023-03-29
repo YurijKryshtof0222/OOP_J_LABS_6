@@ -1,11 +1,7 @@
 package labs.laba7;
 
 import java.time.LocalTime;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class TrainSchedule implements Iterable<TrainRoute> {
@@ -40,6 +36,10 @@ public class TrainSchedule implements Iterable<TrainRoute> {
 
     public TrainRoute get (int index) {
         return routeList.get(index);
+    }
+
+    public boolean contains(Object obj) {
+        return routeList.contains(obj);
     }
 
     public int size () {
