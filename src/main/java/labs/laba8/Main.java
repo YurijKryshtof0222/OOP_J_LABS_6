@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
         final String keyword = "Криштоф Юрій Тарасович";
         String textToEncode = """
-                В склад програмного забезпеннення комп'ютерів входять як універиальні
+                В склад програмного забезпечення комп'ютерів входять як універcальні
                 засоби (системне програмне забезпечення), так і прикладні програми,
-                орієнтовані на окремі пррблемні галузі застосування(приклдане програмне забезпечення)
+                орієнтовані на окремі проблемні галузі застосування(прикладне програмне забезпечення)
                 """;
         String encodedText = new Encoder(keyword).encode(textToEncode);
         String decodedText = new Decoder(keyword).decode(encodedText);
