@@ -27,3 +27,8 @@
 ![image](https://user-images.githubusercontent.com/105464154/228602606-e592da1d-8d87-4cb9-9dc9-1694388371c3.png)
 ![image](https://user-images.githubusercontent.com/105464154/228602943-2a20045b-d547-477e-b87a-4ffbb038a518.png)
 ![image](https://user-images.githubusercontent.com/105464154/228603185-7c444424-1e76-4fe5-8d90-c1a8af93e106.png)
+
+<h3>Лабораторна №8</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233412901-35e25134-9058-413e-9a8f-8fba2ef684d6.png)
+![image](https://user-images.githubusercontent.com/105464154/233412213-4fa3bc08-6bcf-4166-ad2b-e0da5ce12041.png)
