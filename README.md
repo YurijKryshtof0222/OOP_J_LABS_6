@@ -32,3 +32,10 @@
 
 ![image](https://user-images.githubusercontent.com/105464154/233412901-35e25134-9058-413e-9a8f-8fba2ef684d6.png)
 ![image](https://user-images.githubusercontent.com/105464154/233412213-4fa3bc08-6bcf-4166-ad2b-e0da5ce12041.png)
+
+<h3>Лабораторна №9</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233618903-aaf50070-2823-4e77-a5ad-02b7cf32f457.png)
+![image](https://user-images.githubusercontent.com/105464154/233618717-343d2ce4-798a-47d6-9adc-ec95c56faf02.png)
+
+<h4>Варіант №11</h4>
