@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyWindow extends JFrame {
+
     {
         setTitle("Приховане вікно");
         setSize(400, 300);
@@ -18,8 +19,9 @@ public class MyWindow extends JFrame {
     public static void main(String[] args) {
         MyWindow myWindow = new MyWindow();
 
-        System.out.println("window size: " + myWindow.getLocation());
+        Point location = myWindow.getLocation();
+        System.out.printf("window location: [x = %d, y = %d]\n", location.x, location.y);
         System.out.println("window title: " + myWindow.getTitle());
-        System.out.println("window visible state: " + myWindow.isVisible());
+        System.out.println("window is visible state: " + myWindow.isVisible());
     }
 }
