@@ -3,7 +3,7 @@ package labs.laba10;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyWindow extends JFrame {
+public class MyFrame extends JFrame {
 
     {
         setSize(400, 300);
@@ -11,17 +11,17 @@ public class MyWindow extends JFrame {
         setVisible(false);
     }
 
-    public MyWindow() throws HeadlessException {
+    public MyFrame() throws HeadlessException {
         super("Приховане вікно");
     }
 
     public static void main(String[] args) {
-        MyWindow myWindow = new MyWindow();
+        MyFrame myFrame = new MyFrame();
 
-        Point location = myWindow.getLocation();
+        Point location = myFrame.getLocation();
 
         System.out.printf("window location: [x = %d, y = %d]\n", location.x, location.y);
-        System.out.println("window title: " + myWindow.getTitle());
-        System.out.println("window is visible state: " + myWindow.isVisible());
+        System.out.println("window title: " + myFrame.getTitle());
+        System.out.println("window is visible state: " + myFrame.isVisible());
     }
 }
