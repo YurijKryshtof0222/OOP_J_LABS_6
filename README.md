@@ -39,3 +39,8 @@
 ![image](https://user-images.githubusercontent.com/105464154/233618717-343d2ce4-798a-47d6-9adc-ec95c56faf02.png)
 
 <h4>Варіант №11</h4>
+
+<h3>Лабораторна №10</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233634148-0bac1c2f-41de-4281-a325-0d3b60eb51c0.png)
+![image](https://user-images.githubusercontent.com/105464154/233632952-b0f0d702-4972-4bda-a537-80a72392bb24.png)
