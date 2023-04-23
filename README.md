@@ -50,3 +50,14 @@
 ![image](https://user-images.githubusercontent.com/105464154/233796809-242153d2-4ba7-4ced-aa23-b139c0e9cb27.png)
 ![image](https://user-images.githubusercontent.com/105464154/233796840-8a5f3a1d-c2c2-4588-b926-8d03e51541fe.png)
 
+<h3>Лабораторна №12</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233843453-85470877-5e71-4dc2-a2f5-96a121cce2ed.png)
+![image](https://user-images.githubusercontent.com/105464154/233843471-000e1ea8-c704-4a57-a3e4-ba3ee86c6ec2.png)
+![image](https://user-images.githubusercontent.com/105464154/233843598-de9b29d5-a666-4c77-ba69-878dc01f17b6.png)
+
+<h3>Лабораторна №13</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233843333-0c8399c5-1a11-4890-8e5f-4fd3e3bb7a32.png)
+![image](https://user-images.githubusercontent.com/105464154/233843354-76b37a02-6902-4dbb-894f-2ff5e13295c9.png)
+![image](https://user-images.githubusercontent.com/105464154/233843370-8090491d-253c-489d-9a20-c20ff2b06b87.png)
