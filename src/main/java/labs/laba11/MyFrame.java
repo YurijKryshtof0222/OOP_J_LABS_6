@@ -23,7 +23,7 @@ public class MyFrame extends JFrame implements MouseListener {
     }
 
     public MyFrame() throws HeadlessException {
-        super("Приховане вікно");
+        super("Demo");
     }
 
     @Override

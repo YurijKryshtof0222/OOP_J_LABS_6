@@ -25,9 +25,7 @@ public class MainForm {
             }
         });
 
-        exitBtn.addActionListener(actionEvent -> {
-            System.exit(0);
-        });
+        exitBtn.addActionListener(actionEvent -> System.exit(0));
 
     }
 
