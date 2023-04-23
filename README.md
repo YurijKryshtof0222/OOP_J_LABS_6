@@ -44,3 +44,9 @@
 
 ![image](https://user-images.githubusercontent.com/105464154/233634148-0bac1c2f-41de-4281-a325-0d3b60eb51c0.png)
 ![image](https://user-images.githubusercontent.com/105464154/233632952-b0f0d702-4972-4bda-a537-80a72392bb24.png)
+
+<h3>Лабораторна №11</h3>
+
+![image](https://user-images.githubusercontent.com/105464154/233796809-242153d2-4ba7-4ced-aa23-b139c0e9cb27.png)
+![image](https://user-images.githubusercontent.com/105464154/233796840-8a5f3a1d-c2c2-4588-b926-8d03e51541fe.png)
+
