@@ -8,6 +8,7 @@ import java.awt.event.MouseListener;
 public class MyFrame extends JFrame implements MouseListener {
     private JPanel panel = new JPanel();
     private JLabel label = new JLabel();
+
     {
         setSize(300, 120);
         setLocation(200, 300);
